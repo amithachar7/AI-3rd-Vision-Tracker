@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://ai-3rd-vision-tracker.onrender.com";
 
 function App() {
   const [backendOnline, setBackendOnline] = useState(false);
@@ -832,7 +832,7 @@ function App() {
               <div className="system-row-icon"><Server size={18} /></div>
               <div>
                 <strong>FastAPI Backend</strong>
-                <span>http://127.0.0.1:8000</span>
+                <span>https://ai-3rd-vision-tracker.onrender.com</span>
               </div>
               <span className={backendOnline ? "system-state good" : "system-state bad"}>
                 {backendOnline ? "Connected" : "Offline"}

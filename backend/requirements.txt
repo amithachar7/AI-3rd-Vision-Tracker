@@ -4,3 +4,4 @@ python-multipart
 ultralytics
 opencv-python
 numpy
+lap>=0.5.12

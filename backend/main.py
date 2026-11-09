@@ -55,7 +55,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://localhost:5174",
         "http://127.0.0.1:5174",
-        "https://frontend-7ajn-r2va1rk66-amithachar7.vercel.app",
+        "https://ai-3rd-vision-tracker-1.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],

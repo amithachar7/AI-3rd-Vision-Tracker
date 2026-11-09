@@ -25,7 +25,7 @@ import {
 import "./App.css";
 
 // Deployed Render backend
-const API = "https://ai-3rd-vision-tracker.onrender.com";
+const API = "https://ai-3rd-vision-tracker-1.onrender.com";
 
 function App() {
   const [backendOnline, setBackendOnline] = useState(false);
